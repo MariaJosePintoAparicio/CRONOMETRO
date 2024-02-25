@@ -1,0 +1,65 @@
+
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(../img/marvel.jpg) no-repeat center center/ cover; 
+}
+
+.contenedor-principal{
+    width: 300px;
+    max-width: 450px;
+    margin-top: 300px;
+    min-height: 70px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.contenedor-botones {
+    padding: 5px;
+
+}
+
+#cronometro {
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    user-select: none;
+    font-family: 'Noto Sans Thai' , sans-serif ;
+     
+}
+
+.boton {
+    width: 70px;
+    height: 70px ;
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+#boton-inicio-pausa.iniciar,
+#boton-inicio-pausa.iniciar i {
+    background-color: #9f1a29;
+}
+
+#boton-inicio-pausa.pausar,
+#boton-inicio-pausa.pausar i {
+    background-color: #1928ae;
+}
+
+#boton-reiniciar {
+    background-color: rgb(91, 1, 160);
+}
+
